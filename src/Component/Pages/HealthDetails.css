@@ -1,0 +1,196 @@
+/* .health-details-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .health-image img {
+    width: 300px;
+    height: auto;
+  }
+  
+  .health-info {
+    flex: 1;
+  }
+  
+  .health-quantity {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .health-quantity button {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .health-quantity input {
+    width: 40px;
+    text-align: center;
+    margin: 0 10px;
+  }
+  
+  .health-add-to-cart {
+    padding: 10px 15px;
+    background-color: #fff;
+    color:darkgreen;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+  }
+  
+
+  
+  .health-details-tabs h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+
+  .health-pricing {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.health-discount {
+  color: red;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.health-price {
+  color: green;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.health-mrp {
+  color: #888;
+  font-size: 16px;
+  text-decoration: line-through;
+} */
+
+  
+
+
+.health-details-container {
+  display: flex;
+  flex-direction: column; /* Change to column for smaller screens */
+  gap: 20px;
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .health-details-container {
+    flex-direction: row; /* Switch back to row for larger screens */
+  }
+}
+
+.health-image img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.health-info {
+  flex: 1;
+}
+
+.health-quantity {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.health-quantity button {
+  width: 40px; /* Increased for better accessibility on touch devices */
+  height: 40px;
+  font-size: 1.2rem;
+}
+
+.health-quantity input {
+  width: 50px;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.health-add-to-cart {
+  padding: 10px 20px;
+
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2em;
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px 15px;
+background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  color: #fff;
+}
+
+.health-pricing {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.health-discount {
+  color: red;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.health-price {
+  color: green;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.health-mrp {
+  color: #888;
+  font-size: 16px;
+  text-decoration: line-through;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .health-pricing {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .health-add-to-cart {
+    font-size: 1em;
+  }
+
+  .health-quantity button,
+  .health-quantity input {
+    width: 35px;
+    height: 35px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .health-quantity button,
+  .health-quantity input {
+    width: 30px;
+    height: 30px;
+    font-size: 0.9rem;
+  }
+
+  .health-add-to-cart {
+    padding: 8px 15px;
+    font-size: 0.9em;
+  }
+}

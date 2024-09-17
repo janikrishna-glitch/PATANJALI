@@ -1,0 +1,358 @@
+/* 
+
+.category-page {
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.category-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.category-carousel {
+  position: relative;
+}
+
+.category-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  padding: 10px;
+  margin: 0 10px;
+  width: 240px; /* Adjust the width to make it smaller */
+/* }
+
+
+
+.category-image {
+  /* width:350px;
+  height:300px; /* Reduced height */
+  /* object-fit: cover; */
+  /* border-bottom: 1px solid #ddd; */
+/* } */
+/* .category-name {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #333;
+} */
+
+/* .slick-slide {
+  padding: 0 10px;
+} */ 
+
+/* .slick-prev, .slick-next {
+  width: 30px;
+  height: 30px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 50%;
+  line-height: 30px;
+  text-align: center;
+  font-size: 16px;
+  z-index: 1;
+} */
+/* 
+.slick-prev {
+  left: -40px;
+}
+
+.slick-next {
+  right: -40px;
+}
+
+.slick-prev:hover, .slick-next:hover {
+  background-color: #555;
+}  */
+
+
+
+/* .category-page {
+  padding: 40px;
+  background-color: #fff;
+  text-align: center;
+  
+
+  
+}
+
+.category-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: inline-block; 
+  border-bottom: 3px solid  #F7941D; 
+  padding-bottom: 5px;
+  
+
+
+  
+
+ 
+}
+
+
+.category-carousel {
+  display: flex;
+  justify-content:center;
+ 
+}
+
+.category-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width:50px; /* Adjust width 
+  transition: transform 0.3s ease;
+  background-image: url('https://www.patanjaliayurved.net/media/images/itemBackround.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px; /* This controls the gap between items 
+  align-items: center;
+  justify-content: center;
+  /* padding: 20px;  
+
+
+}
+
+.category-card:hover {
+  transform: scale(1.05);
+}
+
+/* .category-image {
+  width: 100%;
+  height: 250px; /* Adjust height */
+  /* object-fit: cover;
+  border-radius: 8px; */
+/* } 
+
+
+.category-image {
+
+width: 100%;
+height:231px; /* This ensures the image maintains its aspect ratio 
+object-fit: contain; /* or use cover depending on the requirement 
+  
+}
+
+.category-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #333;
+}
+
+.slick-prev, .slick-next {
+  display: none; /* Hide buttons if using slick carousel 
+}
+
+
+.image{
+  width:1000%;
+  height:auto;
+} */
+ 
+
+/* Main container for the category page */
+/* .category-page {
+  padding: 40px;
+  background-color: #fff;
+  text-align: center;
+}
+
+/* Title styling */
+/* .category-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: inline-block;
+  border-bottom: 3px solid #F7941D;
+  padding-bottom: 5px;
+} */
+
+/* Carousel container */
+/* .category-carousel {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Ensures wrapping if there are more items 
+  gap: 20px; /* Adds space between the items 
+} */
+
+/* Styling for each category card */
+.category-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 25px;
+  width: 200px; /* Adjusted to a reasonable size for display */
+  transition: transform 0.3s ease;
+  background-image: url('https://www.patanjaliayurved.net/media/images/itemBackround.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column; /* To stack image and text */
+  align-items: center; /* Centers the image and text */
+  justify-content: center;
+}
+
+/* .category-card:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+/* }  */
+
+/* Image inside the category card */
+/* .category-image {
+  width: 100%;
+  height: 231px; /* Maintains consistent height for images 
+  object-fit: contain; /* Keeps the image contained inside the card without cropping 
+  border-radius: 8px; /* Ensures the image has the same roundness as the card 
+} */
+
+/* Category name 
+.category-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #333;
+}
+
+/* Hiding slick carousel buttons 
+.slick-prev, .slick-next {
+  display: none;
+}
+
+/* Image styling (not sure what this refers to but adjusted it for consistency) 
+.image {
+  width: 100%; /* Fixes width to 100% of the parent container 
+  height: auto; /* Maintains aspect ratio  */
+
+
+/* } */
+
+/* Main container for the category page */
+.category-page {
+  padding: 40px;
+  background-color: #fff;
+  text-align: center;
+}
+
+/* Title styling */
+.category-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: inline-block;
+  border-bottom: 3px solid #F7941D;
+  padding-bottom: 5px;
+}
+
+/* Carousel container */
+.category-carousel {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Ensures wrapping if there are more items */
+  gap: 20px; /* Adds space between the items */
+}
+
+/* Styling for each category card */
+.category-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 25px;
+  width: 200px; /* Adjusted to a reasonable size for display */
+  transition: transform 0.3s ease;
+  background-image: url('https://www.patanjaliayurved.net/media/images/itemBackround.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column; /* To stack image and text */
+  align-items: center; /* Centers the image and text */
+  justify-content: center;
+}
+
+.category-card:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Image inside the category card */
+.category-image {
+  width: 100%;
+  height: 231px; /* Maintains consistent height for images */
+  object-fit: contain; /* Keeps the image contained inside the card without cropping */
+  border-radius: 8px; /* Ensures the image has the same roundness as the card */
+}
+
+/* Category name */
+.category-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #333;
+}
+
+/* Hiding slick carousel buttons */
+.slick-prev, .slick-next {
+  display: none;
+}
+
+/* Image styling */
+.image {
+  width: 100%;
+  height: auto; /* Maintains aspect ratio */
+}
+
+/* Media Queries for Responsiveness */
+
+/* Small devices (up to 600px) */
+@media (max-width: 600px) {
+  .category-page {
+    padding: 20px;
+  }
+
+  .category-title {
+    font-size: 20px;
+  }
+
+  .category-card {
+    width: 100%; /* Full width for smaller screens */
+    padding: 15px;
+  }
+
+  .category-image {
+    height: 180px; /* Reduce image size for smaller screens */
+  }
+
+  .category-name {
+    font-size: 14px;
+  }
+}
+
+/* Tablets (600px - 992px) */
+@media (min-width: 601px) and (max-width: 992px) {
+  .category-card {
+    width: calc(50% - 20px); /* Two items per row on tablets */
+  }
+
+  .category-image {
+    height: 200px; /* Medium image size */
+  }
+}
+
+/* Laptops and Desktops (992px and above) */
+@media (min-width: 993px) {
+  .category-card {
+    width: calc(25% - 20px); /* Four items per row on larger screens */
+  }
+
+  .category-image {
+    height: 231px; /* Maintain original height */
+  }
+}

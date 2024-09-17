@@ -1,0 +1,75 @@
+.categories {
+  width: 100%;
+  max-width: 1200px; /* Adjust this to control the max width */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px;
+
+
+ 
+}
+
+.categories-header {
+  font-size: 25px;
+  color: #186c38;
+  text-align: center;
+  font-weight: 500;
+  display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  gap: 10px; /* Space between the icon and heading */
+  margin-bottom: 20px; /* Space below the header */
+}
+
+.categories-header i {
+  font-size: 20px;
+  color: #186C37;
+  padding: 5px;
+}
+
+.categories-header h3 {
+  font-size: 25px;
+  color: #186c38;
+  margin: 0;
+  font-weight: 500;
+}
+
+.item {
+  display: flex;
+  gap: 20px; /* Space between items */
+  justify-content: center; /* Center items horizontally */
+  flex-wrap: wrap; /* Wrap items if they overflow */
+}
+
+.category-item ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.category-item li {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between image and text */
+  padding: 15px;
+  height: 50px;
+  border: 2px solid #28a745; /* Green border */
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.category-item li:hover {
+  background-color: #f0f0f0;
+}
+
+.category-item img {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.category-item h4 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}

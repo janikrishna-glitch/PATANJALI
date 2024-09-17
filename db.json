@@ -1,0 +1,952 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Health",
+      "image": "https://www.carlington.in/cdn/shop/files/Carlington_elite_analog_ladies_watch_CT_2007_roseblack.jpg?v=1696689556&width=2400",
+      "price": 234,
+      "description": "Health",
+      "type": "watch"
+    },
+    {
+      "id": 2,
+      "name": "Personal natural care",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2023/3/295281263/KI/VT/XP/123044557/whatsapp-image-2023-02-27-at-2-55-47-pm-22-.jpeg",
+      "price": 100,
+      "description": "description of top",
+      "type": "top"
+    },
+    {
+      "id": 3,
+      "name": "Medicine",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2022/8/YL/IW/XE/28280455/5ed302b0-f4ad-4e37-aceb-400f09adcc15-500x500.jpg",
+      "price": 400,
+      "description": "description of kurti",
+      "type": "kurti"
+    },
+    {
+      "id": 4,
+      "name": "nutraceuticals",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2022/8/YL/IW/XE/28280455/5ed302b0-f4ad-4e37-aceb-400f09adcc15-500x500.jpg",
+      "price": 400,
+      "description": "description of kurti",
+      "type": "kurti"
+    },
+    {
+      "id": 5,
+      "name": "paridhan",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2022/8/YL/IW/XE/28280455/5ed302b0-f4ad-4e37-aceb-400f09adcc15-500x500.jpg",
+      "price": 400,
+      "description": "description of kurti",
+      "type": "kurti"
+    },
+    {
+      "id": 6,
+      "name": "Publication",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2022/8/YL/IW/XE/28280455/5ed302b0-f4ad-4e37-aceb-400f09adcc15-500x500.jpg",
+      "price": 400,
+      "description": "description of kurti",
+      "type": "kurti"
+    }
+  ],
+  "deals": [
+    {
+      "id": 1,
+      "name": "Ayurvedic Face Cream",
+      "price": "₹180",
+      "originalPrice": 20.00,
+      "Discount": 35,
+      "image": "https://www.patanjaliayurved.net/assets/product_images/thumbs/240_240_1717069051MensCharcoal100g1.png"
+    },
+    {
+      "id": 2,
+      "name": "Herbal Shampoo",
+      "price": "₹140",
+      "originalPrice": 15.00,
+      "Discount": 40,
+      "image": ""
+    }
+  ],
+  "healthItems": [
+    {
+      "id": 1,
+      "name": "patanjali shelajeet capsule",
+      "price": 92,
+      "rating": 5,
+      "offer": "8% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1689151279Shilajeetcapsule1.png"
+    },
+    {
+      "id": 2,
+      "name": "Patanjali Ashvagandha Capsule",
+      "price": 82,
+      "rating": 5,
+      "offer": "9% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1689151515AshvagandhaCapsule1.png"
+    },
+    {
+      "id": 3,
+      "name": "Patanjali Ashvashila - 20 Capsules ",
+      "price": 92,
+      "rating": 5,
+      "offer": "8% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1701863189Ashvashila_A_-03.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Patanjali Youvan Gold Plus - 10 Capsules",
+      "price": 690,
+      "rating": 5,
+      "offer": "8% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1705659974Youvan_Gold(1).jpg"
+    },
+    {
+      "id": 6,
+      "name": "Patanjali Chyawanprabha Advance No Added Sugar",
+      "price": 360,
+      "rating": 5,
+      "offer": "15% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1690275150chyawanprabhaadv700g1.png"
+    },
+    {
+      "id": 7,
+      "name": "Patanjali special chayvanprash",
+      "price": 316,
+      "rating": 5,
+      "offer": "12% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1690280527SpecialChyawanprash1kg1.png"
+    },
+    {
+      "id": 8,
+      "name": "patanjali Honey",
+      "price": 99,
+      "rating": 5,
+      "offer": "10% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1690961755Honey250g1.png"
+    },
+    {
+      "id": 9,
+      "name": "Thandai powder",
+      "price": 265,
+      "rating": 5,
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1716875371ThandaiPowder500g1.png"
+    },
+    {
+      "id": 10,
+      "name": "patanjali Aamla juice",
+      "price": 124,
+      "rating": 5,
+      "offer": "11% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1690962103AmlaJuice1ltrNew1.png"
+    },
+    {
+      "id": 11,
+      "name": "Traceble honey",
+      "price": 100,
+      "rating": 5,
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1690962103AmlaJuice1ltrNew1.png"
+    },
+    {
+      "id": 12,
+      "name": "patanjali Murmura ",
+      "price": 60,
+      "rating": 5,
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/16902630361.png"
+    },
+    {
+      "id": 12,
+      "name": "Lichi basil drink",
+      "price": 40,
+      "rating": 5,
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1690191501LitchiBasilDrink200ml1.png"
+    },
+    {
+      "id": 12,
+      "name": "ORGANIC WILD HONEY",
+      "price": 350,
+      "rating": 5,
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1711619396Organicwildhoney1.png"
+    },
+    {
+      "id": 12,
+      "name": "Pachat shodhit harat",
+      "price": 45,
+      "rating": 5,
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1699008596PachakShodhitHarad100g1.png"
+    }
+  ],
+  "Personal natural care": [
+    {
+      "id": 1,
+      "name": "shower gel",
+      "price": "141",
+      "rating": 5,
+      "offer": "6% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1689411995ShowerGel1_1.png"
+    },
+    {
+      "id": 2,
+      "name": "moistrurizing cream",
+      "price": 92,
+      "rating": 5,
+      "offer": "20% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1701240242aloesoftmoisturizingcream50g1.png"
+    },
+    {
+      "id": 3,
+      "name": " Patanjali m0gra Body Cleaner",
+      "price": 73,
+      "rating": 5,
+      "offer": "9% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1688723750MograBodyCleanser-125g1.png"
+    },
+    {
+      "id": 4,
+      "name": "patanjali aqua fresh body cleasner",
+      "price": 73,
+      "rating": 5,
+      "offer": "9% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1688461660AquaFreshBodyCleanser-125g1.png"
+    },
+    {
+      "id": 4,
+      "name": "Patanjali neem kanti body cleaner",
+      "price": 145,
+      "rating": 5,
+      "offer": "5% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1701237789NeemKantiBCSaveRs.161.png"
+    },
+    {
+      "id": 5,
+      "name": "mint tulsi body cleaner",
+      "price": 73,
+      "rating": 5,
+      "offer": "20% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1687754797400x500.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Aloevera Kanti Body Cleanser-150 G X 4 N",
+      "price": 63,
+      "rating": 5,
+      "offer": "20% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1701237485AloeveraKantiSaveRs161.png"
+    },
+    {
+      "id": 6,
+      "name": "Aloevera Mitti Body Cleanser",
+      "price": 69,
+      "rating": 5,
+      "offer": "8% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1688725906MULTANIMITTIBodyCleanser-75g1.png"
+    },
+    {
+      "id": 6,
+      "name": "chandan kanti Body Cleanser",
+      "price": 37,
+      "rating": 5,
+      "offer": "8% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/16894063251.png"
+    },
+    {
+      "id": 6,
+      "name": "Shisu care hair oil",
+      "price": 216,
+      "rating": 5,
+      "offer": "10% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1716554260HairOil-01.png"
+    },
+    {
+      "id": 7,
+      "name": "diaper rush",
+      "price": 89,
+      "rating": 5,
+      "offer": "20% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1716783602DiaperRashCream-01.png"
+    },
+    {
+      "id": 8,
+      "name": "rose body cleaner",
+      "price": 29,
+      "rating": 5,
+      "offer": "20% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1689416663RoseBodyCleanser125g1-Copy.png"
+    },
+    {
+      "id": 9,
+      "name": "patanjali kanti panchgavya body cleaner",
+      "price": 29,
+      "rating": 5,
+      "offer": "9% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1689416353PatanjaliPanchgavyaBodyCleanser(75gm)1.png"
+    },
+    {
+      "id": 9,
+      "name": "Shisu care message oil",
+      "price": 216,
+      "rating": 5,
+      "offer": "10% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1716554070MassageOil-01.png"
+    }
+  ],
+  "nutraceuticals": [
+    {
+      "id": 1,
+      "name": "Combo Pat. Nutrela Daily Active + Omega 3 Softgel Capsule (30N+60N)",
+      "price": 855,
+      "rating": 5,
+      "offer": "6% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1722751639omegadailyactivecombo.png"
+    },
+    {
+      "name": "Patanjali Nutrela Women's Superfood",
+      "price": 495,
+      "rating": 5,
+      "offer": "10% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/17011524651.png"
+    },
+    {
+      "name": "Patanjali Nutrela Daily Energy - Organic B Complex Capsules (pack of 3)",
+      "price": 810,
+      "rating": 5,
+      "offer": "10% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1714034040orgnicbp31.png"
+    },
+    {
+      "name": "Pat Nutrela Mothers Plus Powder",
+      "price": 450,
+      "rating": 5,
+      "offer": "10% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/17080850921.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Combo Pat. Nutrela Men'S Superfood + Moringa (400G+60N)",
+      "price": 463,
+      "rating": 5,
+      "offer": "6% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/17227437321.png"
+    },
+    {
+      "id": 5,
+      "name": "NUT.MEL+ASHW.GUMMIES-MIX.BER FLV",
+      "price": 629,
+      "rating": 5,
+      "offer": "6% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1714632431aswandmela1.png"
+    },
+    {
+      "id": 6,
+      "name": "Patanjali Nutrela Natural Spirulina Tablets (pack of 3)",
+      "price": 675,
+      "rating": 5,
+      "offer": "10% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1707381825spp31.png"
+    },
+    {
+      "id": 7,
+      "name": "Patanjali Nutrela Collagenprash Skin Superfood",
+      "price": 612,
+      "rating": 5,
+      "offer": "6% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/16888070541.png"
+    },
+    {
+      "id": 8,
+      "name": "patanjali diabetic care",
+      "price": 558,
+      "rating": 5,
+      "offer": "6% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/16888099051.png"
+    },
+    {
+      "id": 9,
+      "name": "NUT.MULTI-VIT.KIDS GUMMIES-STR FLV",
+      "price": 499,
+      "rating": 5,
+      "offer": "6% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1714034777weightgainchoc1.png"
+    },
+    {
+      "id": 9,
+      "name": "Patanjali nuetrela kid's superFood",
+      "price": 449,
+      "rating": 5,
+      "offer": "6% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/17077181241.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Patanjali nuetrela gain weight",
+      "price": 540,
+      "rating": 5,
+      "offer": "6% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/17080846351.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Patanjali Nutrela Bone Health - Natural Calcium Supplement (pack of 3)",
+      "price": 675,
+      "rating": 5,
+      "offer": "6% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1714035145bonehealthp31.png"
+    },
+    {
+      "id": 9,
+      "name": "Patanjali Nutrela Org Omega 3,6,7,9",
+      "price": 495,
+      "rating": 5,
+      "offer": "6% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1714040128omega36791.png"
+    }
+  ],
+  "paridhan": [
+    {
+      "id": 7,
+      "name": "SAREE-PWEWSRWBRO1843013-RED",
+      "price": 3699,
+      "rating": 5,
+      "offer": "6% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/16436120032.jpg"
+    },
+    {
+      "id": 7,
+      "name": "BUSINESS SHAKTI",
+      "price": 799,
+      "rating": 5,
+      "offer": "6% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/16420505861.jpg"
+    },
+    {
+      "id": 7,
+      "name": "vighnharta kavach",
+      "price": 349,
+      "rating": 5,
+      "offer": "6% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/16420487991.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Rudrakash water beads",
+      "price": 199,
+      "rating": 5,
+      "offer": "6% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/17078147391.png"
+    },
+    {
+      "id": 7,
+      "name": "Women BAG PRINT",
+      "price": 599,
+      "rating": 5,
+      "offer": "6% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/16430068352.JPG"
+    },
+    {
+      "id": 7,
+      "name": "Women BAG PRINT navy",
+      "price": 2299,
+      "rating": 5,
+      "offer": "6% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/16430152112.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Rudrakash with Cap",
+      "price": 549,
+      "rating": 5,
+      "offer": "6% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/16420771351.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Sports wear men",
+      "price": 299,
+      "rating": 5,
+      "offer": "6% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1643110948400x300-1.jpg"
+    },
+    {
+      "id": 8,
+      "name": "WOMEN BAG-SOLID-PAWPBGBSGO184-5509-GREEN",
+      "price": 1499,
+      "rating": 5,
+      "offer": "6% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/16430154241.jpg"
+    }
+  ],
+  "Publication": [
+    {
+      "id": 7,
+      "name": "patanjali badam shrin",
+      "price": 12.99,
+      "rating": 5,
+      "offer": "6% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1721194585RoghanBadamShirin60ml1.png"
+    },
+    {
+      "id": 7,
+      "name": "patanjali badam shrin",
+      "price": 12.99,
+      "rating": 5,
+      "offer": "6% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1721194585RoghanBadamShirin60ml1.png"
+    },
+    {
+      "id": 7,
+      "name": "patanjali badam shrin",
+      "price": 12.99,
+      "rating": 5,
+      "offer": "6% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1721194585RoghanBadamShirin60ml1.png"
+    },
+    {
+      "id": 7,
+      "name": "patanjali badam shrin",
+      "price": 12.99,
+      "rating": 5,
+      "offer": "6% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1721194585RoghanBadamShirin60ml1.png"
+    },
+    {
+      "id": 7,
+      "name": "patanjali badam shrin",
+      "price": 12.99,
+      "rating": 5,
+      "offer": "6% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1721194585RoghanBadamShirin60ml1.png"
+    },
+    {
+      "id": 7,
+      "name": "patanjali badam shrin",
+      "price": 12.99,
+      "rating": 5,
+      "offer": "6% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1721194585RoghanBadamShirin60ml1.png"
+    },
+    {
+      "id": 7,
+      "name": "patanjali badam shrin",
+      "price": 12.99,
+      "rating": 5,
+      "offer": "6% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1721194585RoghanBadamShirin60ml1.png"
+    }
+  ],
+  "ShopCategory": [
+    {
+      "id": 1,
+      "image": "https://www.patanjaliayurved.net/assets/category_image/1712134559patanjaliparidhanV4.png",
+      "name": "paridhan"
+    },
+    {
+      "id": 1,
+      "image": "https://www.patanjaliayurved.net/assets/category_image/1712134582patanjalicooperware.png",
+      "name": "Copperware"
+    },
+    {
+      "id": 1,
+      "image": "https://www.patanjaliayurved.net/assets/category_image/1712134613patanjalinotebookV4.png",
+      "name": "Stationary"
+    },
+    {
+      "id": 1,
+      "image": "https://www.patanjaliayurved.net/assets/category_image/1712134621patanjalibiofertilizersV4.png",
+      "name": "OrganicAgri products"
+    },
+    {
+      "id": 1,
+      "image": "https://www.patanjaliayurved.net/assets/category_image/1712134591patanjalidairyfrozenV4.png",
+      "name": "Dairy and frozen"
+    }
+  ],
+  "dealsandoffer": [
+    {
+      "id": 1,
+      "discount": 50,
+      "image": "https://www.patanjaliayurved.net/assets/product_images/thumbs/240_240_16912208231.png",
+      "name": "Zinc plus",
+      "price": 288
+    },
+    {
+      "id": 2,
+      "discount": 40,
+      "image": "https://www.patanjaliayurved.net/assets/product_images/thumbs/240_240_16912199231.png",
+      "name": "Patanjali Umang",
+      "price": 719
+    },
+    {
+      "id": 3,
+      "Offer": 40,
+      "image": "https://www.patanjaliayurved.net/assets/product_images/thumbs/240_240_1691220538Pfluroescense1.png",
+      "name": "patanjali fluorenscens",
+      "price": 207
+    },
+    {
+      "id": 4,
+      "discount": 40,
+      "image": "https://www.patanjaliayurved.net/assets/product_images/thumbs/240_240_1700202042aloeveragel150ml1.png",
+      "name": "patanjali sundraya alovera jel",
+      "price": 50
+    },
+    {
+      "id": 5,
+      "discount": 50,
+      "image": "https://www.patanjaliayurved.net/assets/product_images/thumbs/240_240_17198156391.png",
+      "name": "patanjali nutrela Slim choice powder",
+      "price": 100
+    },
+    {
+      "id": 6,
+      "discount": 50,
+      "image": "https://www.patanjaliayurved.net/assets/product_images/thumbs/240_240_16888099051.png",
+      "name": "patanjali nuetera diabetic care",
+      "price": 100
+    },
+    {
+      "id": 7,
+      "discount": 50,
+      "image": "https://www.patanjaliayurved.net/assets/product_images/thumbs/240_240_1717069051MensCharcoal100g1.png",
+      "name": "men's chaccol facewash",
+      "price": 100
+    },
+    {
+      "id": 8,
+      "discount": 50,
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1689410298LemonBodyCleanserB3G11.png",
+      "name": "Patanjali Lemon Body Cleanser 125g C.o. B3G1 Free",
+      "price": 165
+    }
+  ],
+  "newArrivals": [
+    {
+      "id": 1,
+      "name": "Combo Pat. Nutrela Vitamin D2K + B12 (60N+30)",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/thumbs/240_240_1722751639omegadailyactivecombo.png",
+      "price": "₹360",
+      "mrp": "₹400",
+      "weight": "100g",
+      "rating": 2,
+      "stock": "Out of stock"
+    },
+    {
+      "id": 2,
+      "name": "Combo Pat. Nutrela Daily Active + Omega 3 Softgel (30N+60N)",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/thumbs/240_240_1725078845vitamincandzinc.png",
+      "price": "₹855",
+      "mrp": "₹950",
+      "weight": "165g",
+      "rating": 5,
+      "stock": "Buy Now"
+    },
+    {
+      "id": 3,
+      "name": "Combo Pat. Nutrela Pat.Nut. Vit.C+Zn (Pack of 2)",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/thumbs/240_240_17250115851.png",
+      "price": "₹450",
+      "mrp": "₹500",
+      "weight": "110g",
+      "rating": 4,
+      "stock": "Buy Now"
+    },
+    {
+      "id": 4,
+      "name": "Combo Pat. Nutrela Pat.Nut.Vit.B-Complex (Pack of 2)",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/thumbs/240_240_1723612002weightgainchocflavor1.png",
+      "price": "₹540",
+      "mrp": "₹600",
+      "weight": "100g",
+      "rating": 3,
+      "stock": "Out of stock"
+    },
+    {
+      "id": 5,
+      "name": "KESH KANTI ALOEVERA HAIR CLEANSER",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/thumbs/240_240_17250874481.png",
+      "price": "₹540",
+      "mrp": "₹600",
+      "weight": "100g",
+      "rating": 3,
+      "stock": "Out of stock"
+    },
+    {
+      "id": 5,
+      "name": "Combo khand 1kg (pack of 2)",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/thumbs/240_240_1726029829khand.png",
+      " price": "₹220",
+      "weight": "2kg",
+      "rating": 3,
+      "stock": "Buy now"
+    },
+    {
+      "id": 5,
+      "name": "Patanjali Soya chunk",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/thumbs/240_240_1724144053soyachunks40g1.png",
+      " price": "₹10",
+      "weight": "40g",
+      "rating": 3,
+      "stock": "Buy now"
+    },
+    {
+      "id": 5,
+      "name": "Patanjali Amla chandy",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/thumbs/240_240_1724148210amlacandy250g1.png",
+      "price": "₹190",
+      "weight": "250g",
+      "rating": 3,
+      "stock": "Buy now"
+    },
+    {
+      "id": 5,
+      " name": "KESH KANTI ANTI-DANDRUFF HAIR CLEANSER",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1725086518ad1.png",
+      "price": "₹650",
+      "weight": "650ml",
+      "rating": 3,
+      "stock": "Buy now"
+    },
+    {
+      "id": 5,
+      "name": "PAT.NU GREEN PLANT PROTEIN CHOC FLV",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/thumbs/240_240_1722656315GreenPlantProtein500g1.png",
+      "price": "₹1099",
+      "weight": "500g",
+      "rating": 3,
+      "stock": "Buy now"
+    }
+  ],
+  "Medicine": [
+    {
+      "id": 1,
+      "name": "patankali balm",
+      "price": 55,
+      "rating": 5,
+      "offer": "8% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1721127538PatanjaliBalm25g1.png"
+    },
+    {
+      "id": 2,
+      "name": "divya drakshava",
+      "price": 176,
+      "rating": 5,
+      "offer": "20% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/17211909631.png"
+    },
+    {
+      "id": 3,
+      "name": "divya Usirasav",
+      "price": 116,
+      "rating": 5,
+      "offer": "20% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1721191381Usirasav(1).png"
+    },
+    {
+      "id": 3,
+      "name": "divya kumarashava",
+      "price": 112,
+      "rating": 5,
+      "offer": "6% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1721191777Kumariyasav1.png"
+    },
+    {
+      "id": 5,
+      "name": "swarna shelajeet - 10 capsule",
+      "price": 322,
+      "rating": 5,
+      "offer": "8% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/17013240301.png"
+    },
+    {
+      "id": 6,
+      "name": "divya vidansay",
+      "price": 104,
+      "rating": 5,
+      "offer": "20% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1721193440Arvindasav225ml1.png"
+    },
+    {
+      "id": 7,
+      "name": "patanjali Rogan badam shrin",
+      "price": 167,
+      "rating": 5,
+      "offer": "12% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1721194585RoghanBadamShirin60ml1.png"
+    },
+    {
+      "id": 8,
+      "name": "Divya Immunogrit Churna",
+      "price": 180,
+      "rating": 5,
+      "offer": "10% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/17211029801.png"
+    },
+    {
+      "id": 9,
+      "name": "Combo Godhan Ark+Gonyle (450Ml+1L)",
+      "price": 108,
+      "rating": 5,
+      "offer": "10% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1719897847ComboGodhanArk+Gonyle(450Ml+1L).png"
+    },
+    {
+      "id": 9,
+      "name": "divya sarvari pravahi",
+      "price": 108,
+      "rating": 5,
+      "offer": "13% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1723788511SwaasariPravahi250ml1_1.png"
+    },
+    {
+      "id": 9,
+      "name": "divya dhara",
+      "price": 45,
+      "rating": 5,
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1721130276Divyadhara1.png"
+    },
+    {
+      "id": 9,
+      "name": "divya taila",
+      "price": 240,
+      "rating": 5,
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/17212089471.png"
+    },
+    {
+      "id": 9,
+      "name": "divya churan",
+      "price": 65,
+      "rating": 5,
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1721209269Divyachuran50g1.png"
+    },
+    {
+      "id": 9,
+      "name": "Yogendra ras",
+      "price": 1145,
+      "rating": 5,
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/17212105311.png"
+    },
+    {
+      "id": 9,
+      "name": "Sweat Prapti",
+      "price": 15,
+      "rating": 5,
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1721211144SWETPARPATI5g1.png"
+    },
+    {
+      "id": 9,
+      "name": "divya kantilep",
+      "price": 90,
+      "rating": 5,
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1721215633Kanilep50g1.png"
+    },
+    {
+      "id": 9,
+      "name": "LaxmiVilas ras",
+      "price": 70,
+      "rating": 5,
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1721217690lakshmivilasrasa1.png"
+    }
+  ],
+  "Food": [
+    {
+      "id": 1,
+      "name": "Moong dal dhuli",
+      "price": 159,
+      "rating": 5,
+      "offer": "5% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1690959764Moongdaldhuli1kg1.png"
+    },
+    {
+      "name": "vemiceli plain",
+      "price": 70,
+      "rating": 5,
+      "offer": "10% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1690268886PlainVermicelli-Plain-900g1.png"
+    },
+    {
+      "name": "mixed polish",
+      "price": 52,
+      "rating": 5,
+      "offer": "6% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1708161772MixDal1kg1.png"
+    },
+    {
+      "id": 4,
+      "name": "patanjali besan",
+      "price": 1299,
+      "rating": 5,
+      "offer": "8% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1690957558Besan500gNew1.png"
+    },
+    {
+      "id": 5,
+      "name": "kala chana",
+      "price": 299,
+      "rating": 5,
+      "offer": "6% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1690960380Chana1kg1.png"
+    },
+    {
+      "id": 6,
+      "name": "patanjali coconut oil",
+      "price": 65,
+      "rating": 5,
+      "offer": "6% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1689748505CoconutHairOil200ml1.png"
+    },
+    {
+      "id": 7,
+      "name": "roasted vemicle",
+      "price": 39,
+      "rating": 5,
+      "offer": "6% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1690196840RoastedVermicelli-400g1.png"
+    },
+    {
+      "id": 8,
+      "name": "garam masala + sabji masala",
+      "price": 239,
+      "rating": 5,
+      "offer": "6% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1690196840RoastedVermicelli-400g1.png"
+    },
+    {
+      "id": 9,
+      "name": "dosa instead mix",
+      "price": 89,
+      "rating": 5,
+      "offer": "13% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1690008056DosaInstantMix400g1.png"
+    },
+    {
+      "id": 9,
+      "name": "rajma instead ",
+      "price": 145,
+      "rating": 5,
+      "offer": "8% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1690959633RajmaChitra1kg1.png"
+    },
+    {
+      "id": 9,
+      "name": "Patanjali sooji",
+      "price": 33,
+      "rating": 5,
+      "offer": "6% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1690278398Sooji500g1.png"
+    },
+    {
+      "id": 9,
+      "name": "Patanjali virgin coconut oil",
+      "price": 323,
+      "rating": 5,
+      "offer": "5% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1714630896virgincoconutoil500ml1.png"
+    },
+    {
+      "id": 9,
+      "name": "Combo garam masala + sabji masala",
+      "price": 144,
+      "rating": 5,
+      "offer": "10% OFF",
+      "image": "https://www.patanjaliayurved.net/assets/product_images/400x500/1719834910ComboGarammasalaandSabziMasala.png"
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+.footer {
+    padding: 40px 20px;
+    padding: 20px 0px 0px 0px;
+    box-sizing: border-box;
+    background: #91c49b;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    margin-top:50px;
+    background-color:#91c49b;
+    padding: 20px 0px 0px 0px;
+  } 
+  
+  .footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-sections {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+  }
+  
+  .footer-section h3 {
+    font-size: 16px;
+    color: #171717;
+    margin-bottom: 30px;
+    font-weight: 600;
+    position: relative;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-section ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1rem;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter-form input[type="email"] {
+    padding: 8px;
+    border: 1px solid #ddd;
+    flex-grow: 1;
+  }
+  
+  .newsletter-form button {
+    padding: 8px 12px;
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .social-icons  {
+    margin-top: 20px;
+    gap:5px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: normal;
+    font-family: 'Jost';
+    
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .social-icons a:hover {
+    color: #4caf50;
+  }
+  
+  .download-apps {
+    margin-top: 20px;
+  }
+  
+  .download-apps img {
+    width: 150px;
+    margin-right: 10px;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    color: #333;
+  }  
+  
+
+
+
+
+.footer-sections {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+/* Footer Links */
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+
+
+.footer-section ul li a:hover {
+  color: #ffcc00;
+  text-shadow: 0 0 10px #ffcc00;
+}
+
+/* Social Icons */
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: #ffcc00;
+}
+
+/* Thank You Message Animation */
+@keyframes slideInOut {
+  0%, 100% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.thank-you-message {
+color:#155724;
+border:1px solid #d4edda ;
+background-color: #d4edda;
+  font-size: 1.3rem;
+  padding:5px;
+  margin-top: 15px;
+  animation: slideInOut 3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.thank-you-message:hover {
+  transform: scale(1.1);
+  color: #ffcc00;
+  text-shadow: 0 0 8px #ffcc00;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  border-top: 1px solid #555;
+  padding-top: 20px;
+}
+
+/* Responsive Footer */
+@media (max-width: 768px) {
+  .footer-sections {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-section {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .social-icons {
+    justify-content: center;
+    gap: 10px;
+  }
+  .download-apps img {
+    width: 120px;
+  }
+}

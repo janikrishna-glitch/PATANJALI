@@ -1,0 +1,52 @@
+
+.deal-detail {
+    display: flex;
+    margin: 20px;
+  }
+  
+  .detail-image {
+    width: 50%;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .detail-info {
+    flex: 1;
+  }
+  
+  .detail-name {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .detail-price {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #d9534f;
+    margin-bottom: 10px;
+  }
+  
+  .detail-original-price {
+    font-size: 1.2em;
+    color: #888;
+    text-decoration: line-through;
+    margin-bottom: 10px;
+  }
+  
+  .detail-discount {
+    font-size: 1.2em;
+    color: #ff6347;
+    margin-bottom: 10px;
+  }
+  
+  .detail-stock {
+    font-size: 1em;
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  .detail-description {
+    font-size: 1em;
+    color: #333;
+  }
+  
