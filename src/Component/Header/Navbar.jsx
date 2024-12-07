@@ -23,7 +23,7 @@ export default function Navbar() {
               className="btn btn-outline-success me-2"
               type="button"
               onClick={toggleSidebar}  // Add click handler to toggle the sidebar
-              style={{ marginLeft: '290px', height: '50px', width: '200px', fontSize: '17px', borderRadius: '3px solid white' }}>
+              style={{ marginLeft: '290px',fontWeight:'16px', height: '50px', width: '200px', fontSize: '17px', borderRadius: '3px solid white' }}>
               <i className="fa-solid fa-bars" style={{ marginRight: '10px' }}></i>
               All Category
             </button>
@@ -43,22 +43,22 @@ export default function Navbar() {
 
       {/* Sidebar Component */}
       {isSidebarVisible && (
-        <div className="sidebar" style={{ position: 'fixed', top: 0, left: 0, height: '100%', width: '250px', backgroundColor: '#fff', boxShadow: '2px 0 5px rgba(0,0,0,0.5)', overflowY: 'auto' }}>
-          <ul className="sidebar-menu" style={{ listStyleType: 'none', padding: '10px' }}>
+        <div className="sidebar" style={{ position: 'fixed', top: 0, left: 0, height: '', width: '250px', backgroundColor: '#fff', boxShadow: '2px 0 5px rgba(0,0,0,0.5)', overflowY: 'auto' }}>
+          <ul className="sidebar-menu" style={{ listStyleType: 'none', padding: '10px',fontFamily:'sans-serif',fontWeight:'26px' }}>
             <li><Link to='/Health'>Natural Health Care</Link></li>
             <li><Link to='/Food'>Natural Food Products</Link></li>
             <li><Link to='/Medicine'>Ayurvedic Medicine</Link></li>
             <li><Link to='/Health care'>Herbal Home Care</Link></li>
             <li><Link to='/NaturalPersonalCare'>Natural Personal Care</Link></li>
+            <li><Link to='/Food'>Food</Link></li>
             <li><Link to='/Publication'>Patanjali Publication</Link></li>
             <li><Link to='/ Nutraceuticals'>Nutraceuticals</Link></li>
             <li><Link to='/Paridhan'>Paridhan</Link></li>
-            <li><Link to='/category/copperware'>Copperware</Link></li>
-            <li><Link to='/category/dairy-frozen-items'>Dairy & Frozen Items</Link></li>
-            <li><Link to='/category/stationery'>Stationery</Link></li>
-            <li><Link to='/category/organic-agri-products'>Organic Agri Products</Link></li>
+          
+           
+          
             <li><Link to='/About'>About us</Link></li>
-            <li><Link to='/category/swadeshi-samridhi-card'>Swadeshi Samridhi Card</Link></li>
+            
           </ul>
         </div>
       )}

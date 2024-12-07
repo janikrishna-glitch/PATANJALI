@@ -258,25 +258,28 @@
 
 /* Sidebar */
 .sidebar {
-  height: 100%;
-  width: 250px;
-  position: fixed;
-  top: 0;
+
+  top: 190px; 
   left: -250px;
   background-color: #fff;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
-  padding-top: 60px;
+  padding-top: 10px;
   transition: 0.3s;
   z-index: 1000;
 }
 
 .sidebar.open {
   left: 0;
+  /* Adjust these values to control the vertical positioning */
+  top: 90px; /* Maintain the top position */
+  bottom: 10px; /* Ensures there is space at the bottom */
 }
 
+/* Sidebar content */
 .sidebar ul {
   list-style-type: none;
   padding: 0;
+  margin-top: 20px; /* Adds some space between the top of the sidebar and the first item */
 }
 
 .sidebar-menu li {
@@ -284,6 +287,7 @@
   border-bottom: 1px solid #ccc;
 }
 
+/* Links in Sidebar */
 .sidebar-menu li a {
   text-decoration: none;
   color: #333;
@@ -292,6 +296,18 @@
 .sidebar-menu li a:hover {
   color: #008000;
 }
+
+
+.slider-container {
+  position: absolute; /* Allows positioning inside the sidebar */
+  bottom: 20px; /* Adjust this value to move the slider further up/down from the bottom */
+  left: 0;
+  right: 0;
+  width: 100%; /* Full width inside the sidebar */
+  padding: 10px;
+}
+
+
 
 /* Category and Menu Items */
 .left {

@@ -225,7 +225,7 @@ const FlashCard = () => {
 
   return (
     <div className="flashCard">
-      <h1 className="flashCard-title">Top Deals & Offers</h1>
+      <h1 className="flashCard-title" style={{color:'#212529'}}>Top Deals & Offers</h1>
       <Slider {...settings} className="deals-slider">
         {healthItems && healthItems.length > 0 ? (
           healthItems.map(item => (

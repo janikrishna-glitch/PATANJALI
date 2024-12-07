@@ -25,8 +25,7 @@
   .footer-section {
     flex: 1;
     min-width: 250px;
-    margin: 45px;
-    
+    margin: 10px;
   }
   
   .footer-section h3 {
@@ -93,7 +92,7 @@
   }
   
   .social-icons a:hover {
-    color: #2fd535;
+    color: #4caf50;
   }
   
   .download-apps {
@@ -114,19 +113,36 @@
 
 
 
+.footer-sections {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+/* Footer Links */
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
 
 
 
 .footer-section ul li a:hover {
-  color: #252523;
-  text-shadow: 0 0 10px #222221;
+
+  text-shadow: 0 0 10px #7fe879;
 }
 
 /* Social Icons */
 
 .social-icons a:hover {
   transform: scale(1.2);
-  color: #1b1b19;
+ 
 }
 
 
@@ -140,17 +156,9 @@
 }
 
 .footer-bottom {
- 
-  text-align: center;
-  width: 1000vw; /* Ensure it spans the full viewport width */
-  font-size: 11px;
-  padding: 5px 0; /* Optional: Adds some padding for spacing */
-  margin: 0; /* Remove any default margin */
-}
-
-.footer-bottom h6 {
+  margin-top: 20px;
+  font-size: 14px;
   color: black;
-
 }
 
 
@@ -179,13 +187,15 @@ background-color: #d4edda;
 
 .thank-you-message:hover {
   transform: scale(1.1);
-
+  color:#155724;
+  text-shadow: 0 0 8px #2fdd22;
 }
 
 /* Footer Bottom */
 .footer-bottom {
   border-top: 1px solid #555;
   padding-top: 20px;
+  color: black;
 }
 
 /* Responsive Footer */

@@ -1,15 +1,19 @@
-/* Main container */
 .thank-you-page {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between; /* Ensures the button stays at the bottom */
   align-items: center;
-  height: 100vh;
-  background-color: #f4f4f9;
-  animation: fadeIn 2s ease-in-out;
-  margin-bottom:145px;
+  height: 80vh; /* Full height of the viewport */
+  padding: 100px;
+  background-color: #f9f9f9;
 }
 
-/* Content area */
+.thank-you-content {
+  text-align: center;
+}
+
+
+
 .thank-you-content {
   text-align: center;
   background-color: #fff;
@@ -40,15 +44,21 @@
 /* Add animation element */
 .thank-you-animation {
   margin-top: 20px;
-  width: 100px;
-  height: 100px;
-  margin-left:70px;
-  border-radius: 10%;
-  background: linear-gradient(45deg, #28a745, #a3e635);
+  width: 200px; /* Increased width */
+  height: 200px; /* Increased height */
+  margin-left: 70px;
+  border-radius: 0%;
+  background: linear-gradient(10deg, #28a745, #a3e635);
   animation: spin 2s linear infinite;
 }
 
-/* Fade-in animation for page */
+.thank-you-emoji {
+  font-size: 5em; /* Increase the font size to make it larger */
+  margin-top: 20px;
+}
+
+
+
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }

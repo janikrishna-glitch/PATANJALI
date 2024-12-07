@@ -1,92 +1,57 @@
-/* .health-details-container {
-    display: flex;
-    gap: 20px;
-    padding: 20px;
-  }
-  
-  .health-image img {
-    width: 300px;
-    height: auto;
-  }
-  
-  .health-info {
-    flex: 1;
-  }
-  
-  .health-quantity {
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
-  }
-  
-  .health-quantity button {
-    width: 30px;
-    height: 30px;
-  }
-  
-  .health-quantity input {
-    width: 40px;
-    text-align: center;
-    margin: 0 10px;
-  }
-  
-  .health-add-to-cart {
-    padding: 10px 15px;
-    background-color: #fff;
-    color:darkgreen;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1em;
-    color: #fff;
-  }
-  
-
-  
-  .health-details-tabs h3 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-  }
-
-
-  .health-pricing {
-  display: flex;
-  align-items: baseline;
-  gap: 10px;
-  margin-top: 10px;
-}
-
-.health-discount {
-  color: red;
-  font-weight: bold;
-  font-size: 18px;
-}
-
-.health-price {
-  color: green;
-  font-weight: bold;
-  font-size: 20px;
-}
-
-.health-mrp {
-  color: #888;
-  font-size: 16px;
-  text-decoration: line-through;
-} */
 
   
 
 
 .health-details-container {
   display: flex;
-  flex-direction: column; /* Change to column for smaller screens */
-  gap: 20px;
+  flex-direction: column; 
+    gap: 20px;
   padding: 20px;
 }
 
+.health-info {
+  flex-grow: 1;
+  padding-left: 30px;
+}
+
+.health-info p {
+  margin-bottom: 20px; 
+}
+
+.health-pricing {
+  margin-bottom: 20px; 
+}
+
+.health-quantity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px; 
+}
+
+.health-quantity button {
+  width: 30px;
+  height: 30px;
+  background-color: #ddd;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.health-quantity input {
+  width: 40px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.health-add-to-cart {
+  margin-top: 10px; 
+} 
+
+
 @media (min-width: 768px) {
   .health-details-container {
-    flex-direction: row; /* Switch back to row for larger screens */
+    flex-direction: row; 
   }
 }
 
@@ -107,7 +72,7 @@
 }
 
 .health-quantity button {
-  width: 40px; /* Increased for better accessibility on touch devices */
+  width: 40px; 
   height: 40px;
   font-size: 1.2rem;
 }
@@ -162,7 +127,7 @@ background-color: #fff;
   text-decoration: line-through;
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 768px) {
   .health-pricing {
     flex-direction: column;
@@ -193,4 +158,223 @@ background-color: #fff;
     padding: 8px 15px;
     font-size: 0.9em;
   }
+}  
+
+@media (max-width: 768px) {
+  .health-details-container {
+    flex-direction: column;
+  }
+
+  .health-image img {
+    width:100%;
+  }
+
+  .health-info {
+    padding-left: 0;
+    margin-top: 20px;
+  }
+}
+
+
+
+
+
+.health-details-container {
+  display: flex;
+  gap: 40px; 
+  margin: 40px auto;
+  max-width: 1200px;
+  padding: 20px;
+
+  font-weight: normal;
+  font-family: 'Jost';
+}
+
+
+.health-image img {
+  height:450px;
+  max-width:80%;
+  object-fit: cover;
+}
+
+
+.health-info {
+  flex-grow: 1; 
+}
+
+
+.health-care-rating {
+  color: gold;
+  font-size: 20px;
+}
+
+
+.health-pricing {
+  margin: 20px 0;
+}
+
+.health-pricing h2 {
+  font-size: 28px;
+  color: #28a745;
+  margin: 0;
+margin-top:25px;
+}
+
+.health-pricing span {
+  font-size: 14px;
+  color: #777;
+  margin-right: 10px;
+}
+
+
+.health-add-to-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 30px 0;
+}
+
+
+.health-quantity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.health-quantity button {
+  width: 40px;
+  height: 40px;
+  background-color: #ddd;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.health-quantity input {
+  width: 50px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+
+.add-to-cart {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-to-wishlist {
+  background-color: white;
+  color: #ff6f61;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.health-details-tabs {
+  margin-top: 30px;
+  
+}
+
+.health-details-tabs button {
+  background-color: #f9f0e5;
+  border: none;
+  padding: 10px 15px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  border-radius: 5px;
+} */
+
+
+
+
+
+.health-details-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.health-details-container {
+  flex: 1; /* Makes the container take the available space */
+  display: flex;
+  padding: 20px;
+}
+
+.health-image img {
+  width: 300px;
+  height: auto;
+}
+
+.health-info {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.health-pricing h2 {
+  color: #000;
+  margin-left: 290px;
+}
+
+.health-add-to-cart {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.health-add-to-cart .health-quantity {
+  display: flex;
+  align-items: center;
+}
+
+.health-add-to-cart button {
+  margin: 0 10px;
+}
+
+.add-to-cart {
+  margin-left: 20px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.add-to-wishlist {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: none;
+  color: red;
+  cursor: pointer;
+}
+
+.health-details-tabs button {
+  margin-right: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.health-details-tabs button:hover {
+  background-color: #f7f7f7;
+}
+
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  position: relative;
+  width: 100%;
 }

@@ -114,7 +114,7 @@ const newArrivals = [
         id: 5,
         name: 'PAT.NU GREEN PLANT PROTEIN CHOC FLV',
         image: 'https://www.patanjaliayurved.net/assets/product_images/thumbs/240_240_1722656315GreenPlantProtein500g1.png',
-        price: '₹1099',
+        price: '₹099',
   
         weight: '500g',
         rating: 3,

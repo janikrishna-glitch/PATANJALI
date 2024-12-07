@@ -180,13 +180,14 @@
   background-color: darkred;
 } */
 
-
-
-
+/* Base Styles */
 .header {
   padding: 10px 0;
   background-color: #fff;
   color: #444444;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .container {
@@ -217,28 +218,30 @@
   border: 1px solid #ddd;
   border-radius: 4px;
   background-color: #f9f9f9;
-  width: 80%;
+  width: 80%; /* Adjust width as needed */
+  height: 50px; /* Set height for the search box */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
 }
 
 .search-box input {
   flex: 1;
-  padding: 8px;
+  padding: 10px; /* Adjust padding for better spacing */
   border: none;
   outline: none;
-  font-size: 14px;
-  font-family: cursive;
+  font-size: 16px; /* Increase font size */
+  font-family: 'Arial', sans-serif; /* Use a different font family */
 }
 
 .search-box i {
-  border: 1px solid rgb(168, 168, 168);
-  background-color: darkgreen;
-  padding: 8px;
-  border-radius: 0 4px 4px 0;
+  border: none; /* Remove border for a cleaner look */
+  background-color: darkgreen; /* Keep the background color */
+  padding: 7px; /* Adjust padding for better click area */
   color: white;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 17px; /* Increase icon font size */
 }
 
+/* Header Icons */
 .icons-container {
   display: flex;
   gap: 15px;
@@ -251,6 +254,7 @@
   color: #444444;
 }
 
+/* Cart Dropdown */
 .header-cart-icon {
   position: relative;
 }
@@ -281,10 +285,6 @@
   margin-right: 10px;
 }
 
-.cart-item-details {
-  flex-grow: 1;
-}
-
 .cart-item-remove {
   background-color: red;
   color: white;
@@ -294,26 +294,79 @@
   border-radius: 3px;
 }
 
-.cart-item-remove:hover {
-  background-color: darkred;
+.cart-empty-message {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%); /* Center the message horizontally */
+  background-color: rgba(0, 0, 0, 0.8); /* Dark semi-transparent background */
+  color: white; /* White text color */
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000; /* Ensure the message appears on top of other elements */
+  text-align: center;
 }
 
-.quantity-btn {
-  background-color: #ddd;
+/* Button Styles */
+.cart-item-buy-now {
+  background-color: #4caf50;
+  color: white;
   border: none;
-  padding: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s;
+}
+
+.cart-item-buy-now:hover {
+  background-color: #45a049;
+}
+
+.logout-button {
+  margin-left: 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
   cursor: pointer;
 }
 
+.logout-button:hover {
+  background-color: #c82333;
+}
 
+.login-btn, .signup-btn {
+  background-color: #4CAF50; /* Green background */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin-left: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
 
+.login-btn:hover, .signup-btn:hover {
+  background-color: #45a049;
+}
 
+/* Welcome Message */
+.welcome-message {
+  margin-left: 23px;
+  color: #2c3e50;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 20px; /* Adjust margin to control right-side spacing */
+}
 
-/* RESPONSIVENESS */
-
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .container {
-    flex-direction: column;  /* Stack items vertically on smaller screens */
+    flex-direction: column; /* Stack items on smaller screens */
     align-items: center;
   }
 
@@ -323,15 +376,30 @@
   }
 
   .search-box {
-    width: 100%;  /* Full width on smaller screens */
+    width: 90%; /* Make it a bit wider on medium screens */
   }
 
   .icons-container {
     margin-top: 10px;
   }
 
+  .header {
+    flex-direction: column; /* Stack header items */
+    align-items: flex-start; /* Align items to the left */
+  }
+}
+
+@media (max-width: 768px) {
+  .search-box {
+    width: 100%; /* Full width on smaller screens */
+  }
+
   .cart-dropdown {
-    width: 100%;
+    width: 100%; /* Ensure dropdown uses full width */
+  }
+
+  .welcome-message {
+    font-size: 18px; /* Slightly larger for better readability */
   }
 }
 
@@ -347,15 +415,16 @@
 
   .cart-item-image {
     width: 100%;
-    height: auto;
+    height: auto; /* Ensure responsive image height */
     margin-bottom: 5px;
   }
 
   .cart-item-details h1 {
-    font-size: 14px;
+    font-size: 14px; /* Smaller heading for mobile */
   }
 
-  .cart-item-remove {
-    padding: 5px;
+  .welcome-message {
+    font-size: 16px; /* Adjust size for smaller screens */
+    margin-left: 15px; /* Reduce margin for smaller screens */
   }
 }

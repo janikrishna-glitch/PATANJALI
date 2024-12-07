@@ -1,37 +1,65 @@
-
-
-
-import { ADD_TO_CART, REMOVE_FROM_CART, UPDATE_CART_ITEM_QUANTITY } from './Action';
-
 const initialState = {
-  cartItems: [],
+  cartItems: [], // Initialize as an array
 };
 
-export const cartReducer = (state = initialState, action) => {
+const cartReducer = (state = initialState, action) => {
   switch (action.type) {
-    case ADD_TO_CART:
+    case 'ADD_TO_CART': {
+      const { item, quantity } = action.payload;
+      const existingItem = state.cartItems.find((cartItem) => cartItem.id === item.id);
+
+      if (existingItem) {
+        // If item is already in the cart, update its quantity
+        return {
+          ...state,
+          cartItems: state.cartItems.map((cartItem) =>
+            cartItem.id === item.id
+              ? { ...cartItem, quantity: cartItem.quantity + quantity }
+              : cartItem
+          ),
+        };
+      } else {
+        // If item is not in the cart, add it to the array
+        return {
+          ...state,
+          cartItems: [...state.cartItems, { ...item, quantity }],
+        };
+      }
+    }
+
+    case 'REMOVE_FROM_CART': {
       return {
         ...state,
-        cartItems: [...state.cartItems, { ...action.payload.item, quantity: action.payload.quantity }],
+        cartItems: state.cartItems.filter((cartItem) => cartItem.id !== action.payload), // Remove item by id
       };
-    case REMOVE_FROM_CART:
+    }
+
+    case 'UPDATE_CART_ITEM_QUANTITY': {
+      const { itemId, quantityChange } = action.payload;
       return {
         ...state,
-        cartItems: state.cartItems.filter(item => item.id !== action.payload),
-      };
-    case UPDATE_CART_ITEM_QUANTITY:
-      return {
-        ...state,
-        cartItems: state.cartItems.map(item =>
-          item.id === action.payload.itemId
-            ? { ...item, quantity: item.quantity + action.payload.quantityChange }
-            : item
+        cartItems: state.cartItems.map((cartItem) =>
+          cartItem.id === itemId
+            ? { ...cartItem, quantity: Math.max(cartItem.quantity + quantityChange, 1) } // Ensure quantity doesn't go below 1
+            : cartItem
         ),
       };
+    }
+
     default:
       return state;
   }
 };
+
+export default cartReducer;
+
+
+
+
+
+
+
+
 
 
 

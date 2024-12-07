@@ -1,21 +1,17 @@
 
+
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import './HealthCare.css';
 import { FaEye, FaHeart } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
-import { useDispatch } from 'react-redux';
-import {addToCart} from './CartSlice'
 
 const HealthCare = () => {
   const [healthItems, setHealthItems] = useState([]);
-
   const navigate = useNavigate();
-  const dispatch = useDispatch();
- 
 
   useEffect(() => {
-    axios.get('http://localhost:3001/paridhan')
+    axios.get("https://patanjali-project-1.onrender.com/paridhan")
       .then(response => {
         setHealthItems(response.data);
       })
@@ -24,21 +20,25 @@ const HealthCare = () => {
       });
   }, []);
 
-  const handleBuyNowClick = (item) => {
-    // dispatch(addToCart(item)); 
-    navigate('/PaymentPage');
-  };
-
-  const handleItemClick = (item) => {
-    navigate(`/health/${item.id}`, { state: { item } });
-  };
-
  
+  const handleItemClick = (item) => {
+    navigate(`/Health/${item.id}`, { state: { item } }); 
+  };
+
+  // Handle buy now button click to navigate to the payment page
+  const handleBuyNowClick = (item, event) => {
+    event.stopPropagation();  // Prevent the parent onClick from firing
+    navigate('/Payment', { state: { item } });  // Navigate to payment page
+  };
+
   return (
     <div className="health-care-grid">
-    {healthItems && healthItems.length > 0 ? (
-      healthItems.map(item => (
-        <div className="health-care-card" key={item.id} onClick={() => handleItemClick(item)}>
+      {healthItems.map(item => (
+        <div
+          className="health-care-card"
+          key={item.id}
+          onClick={() => handleItemClick(item)}  // This will trigger on item card click
+        >
           <img src={item.image} alt={item.name} className="health-care-image" />
           <div className="health-care-details">
             <h3 className="health-care-name">{item.name}</h3>
@@ -50,16 +50,17 @@ const HealthCare = () => {
             <FaEye className="health-care-icon" />
             <FaHeart className="health-care-icon" />
           </div>
-          <button className="health-care-button" onClick={() => handleBuyNowClick(item)}>buy now</button>
+          {/* "Buy Now" button with its own click handler */}
+          <button
+            className="health-care-button"
+            onClick={(event) => handleBuyNowClick(item, event)}
+          >
+            Buy Now
+          </button>
         </div>
-      ))
-    ) : (
-      <p>No items available.</p>
-    )}
-  </div>
+      ))}
+    </div>
   );
 };
 
 export default HealthCare;
-
-

@@ -13,7 +13,7 @@ const CategoryPage = () => {
   useEffect(() => {
     const fetchCategories = async () => {
       try {
-        const response = await axios.get('http://localhost:3001/ShopCategory');
+        const response = await axios.get('https://patanjali-project-1.onrender.com/ShopCategory');
         setCategories(response.data);
       } catch (error) {
         console.error('Error fetching categories:', error);

@@ -12,7 +12,7 @@ const HealthCare = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    axios.get('http://localhost:3001/newArrivals') // Corrected URL, fetching all items
+    axios.get('http://localhost:3001/newArrivals') 
       .then(response => {
         setHealthItems(response.data);
       })
@@ -23,7 +23,7 @@ const HealthCare = () => {
 
   const handleBuyNowClick = (item) => {
     dispatch(addToCart(item)); 
-    navigate('/PaymentPage');  
+    navigate('/Payment');  
   };
 
   const handleItemClick = (item) => {
