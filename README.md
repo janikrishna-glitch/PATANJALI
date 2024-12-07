@@ -1,1 +1,1 @@
-Netlify Link 👉 https://patanjali12.netlify.app/
+Netlify Link 👉 https://patanjaliproject.netlify.app/
