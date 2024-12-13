@@ -1,1 +1,1 @@
-Netlify Link 👉 https://patanjaliproject.netlify.app/
+Live 👉 https://patanjaliproject.netlify.app/
